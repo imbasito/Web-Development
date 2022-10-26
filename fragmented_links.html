@@ -4,10 +4,68 @@
 <head>
     <meta charset="UTF-8">
     <title>Fragmented links</title>
+
+    <!-- CSS for the html structure -->
+    <style>
+
+        h3 {
+            color: rgb(242, 247, 244);
+            text-align: center;
+            font-family: 'Poppins';
+            background-color: rgb(47, 105, 86);
+
+        }
+
+        ul {
+            font-family: 'Poppins';
+        }
+
+        p {
+            font-family: 'Poppins';
+        }
+
+        /* id selector */
+        #section1{
+            color: blue;
+
+        }
+
+        /* class selector */
+        .ok{
+            color: brown;
+        }
+
+        /* grouping selection */
+
+        h1, .ftr{
+            color: darkred;
+            text-align: center;
+
+        }
+
+        #section3{ 
+            color: blueviolet;
+            
+        }
+
+        #section4{
+            color: crimson;
+            font-style: italic;
+        }
+
+        #haha{
+            background-color: yellow;
+            
+        }
+    </style>
+
 </head>
 
 <body>
+
+
     <h1 id="top">This program demonstrates the Fragmented links</h1>
+    
     <section>
         <h3>Jump to sections</h3>
         <ul>
@@ -21,7 +79,8 @@
     <section id="section1">
         <h3>Section 1</h3>
 
-        <p font-face="Poppins">Links pretty much what makes the web what it is. In this lecture, we're going to take a look at different
+        <p>Links pretty much what makes the web what it is. In this lecture, we're going to take a
+            look at different
             types of links and how you could create them in your HTML page. So the first type of links that we're going
             to take a look at are internal links. Here I am looking at the file called links-internal.html, and it's
             located in the examples/Lecture09 folder. And here we have a couple of links we're going to take a look at.
@@ -36,11 +95,11 @@
             that there are a lot of times where you would like to be able to click on a whole region. And a most common
             occurrence of that is on when you have a logo or some sort of a company name in the top left corner for
             example, of your webpage. People expect to be able to click on that and be able to go to the front page of
-            the company. Prior to HTML5, people had to use all kinds of tricks in order to achieve that effect because
-            the a tag was only an inline tag, and you weren't really able to wrap the a tag around the div tag.</p>
+            the company. <span id="haha">Prior to HTML5, people had to use all kinds of tricks in order to achieve that effect because
+            the a tag was only an inline tag, and you weren't really able to wrap the a tag around the div tag.</span></p>
     </section>
 
-    <section id="section2">
+    <section id="section2" class="ok">
         <h3>Section 2</h3>
 
         <p> However we could still have an even absolute URL links as long as they point, again, to the same web
@@ -112,7 +171,7 @@
             <a href="#top">Back to top</a>
         </p>
     </div>
-<footer align="center"> Copyrights&copy; 2022 BASITO. All rights reserved</footer>
+    <footer class="ftr"> Copyrights&copy; 2022 BASITO. All rights reserved</footer>
 </body>
 
 </html>
