@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+
+    <style>
+        /* h1 and paragraph tag of class haha */
+        h1,
+        p.haha {
+            color: brown;
+        }
+
+        /* h1 whose class is heading */
+        h1.heading {
+            color: blue;
+        }
+
+        /* selecting child of a article tag */
+        article>p {
+            color: blueviolet
+        }
+
+        /* descendant selecter */
+        /* anything inside div  and h3 tag will change the color */
+        div p,h3{
+            color: chartreuse;
+        }
+    </style>
+
+</head>
+
+<body>
+
+
+    <h1> Todays lecture</h1>
+    <h1 class="heading"> This is combine element in CSS3</h1>
+
+    <p class="haha"> hahahah </p>
+
+    <article>
+        <p class="paragraph"> This is paragraph</p>
+    </article>
+
+    <div>
+        <p>ok</p>
+
+    </div>
+    <div>
+        <h3>Okayy</h3>
+    </div>
+
+</body>
+
+</html>
