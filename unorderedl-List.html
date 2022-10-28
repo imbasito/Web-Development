@@ -4,11 +4,23 @@
 <head>
     <meta charset="UTF-8">
     <title>unordered list</title>
+
+
+    <style>
+        h1,.first>ul {
+            color: rgb(214, 228, 24);
+        }
+
+        .second>ul {
+            color: crimson;
+        }
+    </style>
 </head>
 
 <body>
     <h1>My unordered shopping list</h1>
-    <div>
+
+    <section class="first">
         <ul>
             <li>Milk</li>
             <li>Donuts</li>
@@ -18,16 +30,20 @@
                     <li>PeakFreans</li>
                 </ul>
             </li>
+    </section>
+
+    <section class="second">
+        <ul>
             <li>Vegetables
-                <ul>
-                    <li>Spinach</li>
-                    <li>Onion</li>
-                    <li>Tomato</li>
-                </ul>
+            <li class="spinach">Spinach</li>
+            <li>Onion</li>
+            <li>Tomato</li>
             </li>
-            <li>Any Fruits</li>
         </ul>
-    </div>
+        <li>Any Fruits</li>
+    </section>
+    </ul>
+
 </body>
 
 </html>
