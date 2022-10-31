@@ -7,6 +7,11 @@
 
     <!-- CSS for the html structure -->
     <style>
+        body {
+            align-content: center;
+            font-family: 'Poppins';
+            background-color: rgb(222, 228, 228);
+        }
 
         h3 {
             color: rgb(242, 247, 244);
@@ -16,47 +21,73 @@
 
         }
 
-        ul {
-            font-family: 'Poppins';
-        }
-
-        p {
-            font-family: 'Poppins';
-        }
 
         /* id selector */
-        #section1{
+        #section1 {
             color: blue;
 
         }
 
         /* class selector */
-        .ok{
+        .ok {
             color: brown;
         }
 
         /* grouping selection */
 
-        h1, .ftr{
+        h1,
+        .ftr {
             color: darkred;
             text-align: center;
 
         }
 
-        #section3{ 
+        #section3 {
             color: blueviolet;
-            
+
         }
 
-        #section4{
+        #section4 {
             color: crimson;
             font-style: italic;
         }
 
-        #haha{
+        #haha {
             background-color: yellow;
-            
+
         }
+
+        a {
+            color: aqua;
+            list-style: none;
+            text-align: center;
+
+        }
+
+        ul {
+            margin-left: 400px;
+            list-style: none;
+        }
+
+        li {
+            margin-bottom: 5px;
+        }
+
+        a:link {
+            background-color: brown;
+            display: block;
+            text-decoration: none;
+            width: 120px;
+            border: 1px solid;
+            border-radius: 20px;
+        }
+
+        a:hover {
+            background-color: green;
+        }
+
+        
+
     </style>
 
 </head>
@@ -65,7 +96,7 @@
 
 
     <h1 id="top">This program demonstrates the Fragmented links</h1>
-    
+
     <section>
         <h3>Jump to sections</h3>
         <ul>
@@ -95,8 +126,10 @@
             that there are a lot of times where you would like to be able to click on a whole region. And a most common
             occurrence of that is on when you have a logo or some sort of a company name in the top left corner for
             example, of your webpage. People expect to be able to click on that and be able to go to the front page of
-            the company. <span id="haha">Prior to HTML5, people had to use all kinds of tricks in order to achieve that effect because
-            the a tag was only an inline tag, and you weren't really able to wrap the a tag around the div tag.</span></p>
+            the company. <span id="haha">Prior to HTML5, people had to use all kinds of tricks in order to achieve that
+                effect because
+                the a tag was only an inline tag, and you weren't really able to wrap the a tag around the div
+                tag.</span></p>
     </section>
 
     <section id="section2" class="ok">

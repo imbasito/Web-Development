@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Inheritance in CSS</title>
+  <style>
+    /* lets try  */
+    header.navigation p {
+      color: blue;
+    }
+
+    /* try another one here */
+    p.blurb {
+      color: brown;
+    }
+
+    p {
+      color: aqua;
+    }
+
+    /* but if you are !important infront of any property then it will be forced to apply. like: */
+
+    p{
+      color: chartreuse !important;
+    }
+
+    /* try and use the specificity rules. Learn about it on the internet */
+  </style>
+</head>
+
+<body>
+  <header class="navigation">
+    <p class="blurb">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero soluta enim aut! Nihil nam
+      obcaecati, fugiat sint sit libero voluptate eos incidunt odio neque cum, dignissimos aperiam, magnam nisi debitis.
+    </p>
+  </header>
+</body>
+
+</html>

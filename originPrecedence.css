@@ -1,0 +1,5 @@
+p{
+    background-color: rgb(131, 178, 216);
+    font-family: 'Poppins';
+     color: aqua;    /*this color will not be count bcz the color seclected in the html file will overwritten this */
+}
